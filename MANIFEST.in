@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_personal_finance *.css
+recursive-include erpnext_personal_finance *.csv
+recursive-include erpnext_personal_finance *.html
+recursive-include erpnext_personal_finance *.ico
+recursive-include erpnext_personal_finance *.js
+recursive-include erpnext_personal_finance *.json
+recursive-include erpnext_personal_finance *.md
+recursive-include erpnext_personal_finance *.png
+recursive-include erpnext_personal_finance *.py
+recursive-include erpnext_personal_finance *.svg
+recursive-include erpnext_personal_finance *.txt
+recursive-exclude erpnext_personal_finance *.pyc
